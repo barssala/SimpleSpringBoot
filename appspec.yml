@@ -3,15 +3,4 @@ os: linux
 files:
   - source: ./myproject-0.0.1-SNAPSHOT.jar
     destination: /opt/codedeploy-agent/deployment-root
-hooks:
-  BeforeInstall:
-    - location: 
-      timeout: 
-      runas: 
-    - location: 
-      timeout: 
-      runas: 
-  ApplicationStop:
-    - location: 
-      timeout: 
-      runas: 
+    

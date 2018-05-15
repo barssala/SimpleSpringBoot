@@ -1,5 +1,5 @@
 version: 0.0
 os: linux
 files:
-  - source: ./myproject-0.0.1-SNAPSHOT.jar
-    destination: /tmp
+  - source: myproject-0.0.1-SNAPSHOT.jar
+    destination: /opt/codedeploy-agent/deployment-root

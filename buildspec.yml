@@ -11,5 +11,5 @@ phases:
       - mvn package
 artifacts:
   files:
-    - target/myproject-0.0.1-SNAPSHOT.jar
+    - myproject-0.0.1-SNAPSHOT.jar
     - appspec.yml

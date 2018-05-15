@@ -1,5 +1,17 @@
 version: 0.0
 os: linux
 files:
-  - source: ./my-app-1.0-SNAPSHOT.jar
+  - source: /my-app-1.0-SNAPSHOT.jar
     destination: /opt/codedeploy-agent/deployment-root
+hooks:
+  BeforeInstall:
+    - location: 
+      timeout: 
+      runas: 
+    - location: 
+      timeout: 
+      runas: 
+  ApplicationStop:
+    - location: 
+      timeout: 
+      runas: 

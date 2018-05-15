@@ -13,3 +13,4 @@ artifacts:
   files:
     - myproject-0.0.1-SNAPSHOT.jar
     - appspec.yml
+  discard-paths: yes

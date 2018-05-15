@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /my-app-1.0-SNAPSHOT.jar
+  - source: ./myproject-0.0.1-SNAPSHOT.jar
     destination: /opt/codedeploy-agent/deployment-root
 hooks:
   BeforeInstall:

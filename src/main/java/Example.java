@@ -9,7 +9,7 @@ public class Example {
 
     @RequestMapping("/")
     String home() {
-        return "Hello World ON AWS CODE PIPELINE by Bass!";
+        return "Hello World ON AWS CODE PIPELINE by Bass Srongsil!";
     }
 
 	@RequestMapping(value="/print/{message}", method=RequestMethod.GET)

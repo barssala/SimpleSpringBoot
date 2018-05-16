@@ -13,6 +13,7 @@ public class Example {
     }
 
     public static void main(String[] args) throws Exception {
+	    System.getProperties().put("server.port", 5000);
         SpringApplication.run(Example.class, args);
     }
 
